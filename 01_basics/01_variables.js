@@ -14,3 +14,8 @@ console.log(userId); // can only print one thing at a time
 
 console.table([userId, userEmail, userCity, userPassword]);
 
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
+
