@@ -36,6 +36,7 @@ let stringValue = String(value);
 
 // 89 => string
 // true / 1 =>string 
+// null => string "null"
 
 //*****************************************************************
 
@@ -61,11 +62,11 @@ let string2 = " harsh"
 // console.log("1" + 2); // typeof : string
 // console.log(typeof (1 + "2")); // string
 
-// console.log("1" + 2 +2); // o/p : 122 bcz if the string datatype com first the all the value will be treated as string only
+// console.log("1" + 2 + 2); // o/p : 122 bcz if the string datatype come first then all the value will be treated as string only
 
-// console.log(1 + 2 + "2"); // o/p : 32 here the number come first so they will add then concatenate the string
+// console.log(1 + 2 + "2"); // o/p : 32 bcz the number come first so they will add then concatenate the string
 
-// BUT BUT this bad practice alway use "( )" for better readability
+// BUT BUT this is bad practice alway use "( )" for better readability
 
 let num1 , num2 , num3
 // num1 = num2 = num3 = 2+2 // bad practice assign value separately
