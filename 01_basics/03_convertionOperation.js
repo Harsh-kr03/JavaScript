@@ -31,11 +31,57 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let value = null
 
 let stringValue = String(value);
-console.log(stringValue);
-console.log(typeof stringValue);
+// console.log(stringValue);
+// console.log(typeof stringValue);
 
 // 89 => string
 // true / 1 =>string 
+
+//*****************************************************************
+
+//operations :-
+
+let  = 4
+
+let x = 4
+// console.log(-x);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);// to **->power i.e 2^3
+// console.log(2/3);
+// console.log(2%3);// mod
+
+let string1 = "hello"
+let string2 = " harsh"
+
+// console.log(string1 + string2);
+
+// console.log("1" + 2); // typeof : string
+// console.log(typeof (1 + "2")); // string
+
+// console.log("1" + 2 +2); // o/p : 122 bcz if the string datatype com first the all the value will be treated as string only
+
+// console.log(1 + 2 + "2"); // o/p : 32 here the number come first so they will add then concatenate the string
+
+// BUT BUT this bad practice alway use "( )" for better readability
+
+let num1 , num2 , num3
+// num1 = num2 = num3 = 2+2 // bad practice assign value separately
+
+// console.log(num2);
+num1 = 25;
+
+console.log(num1++);  //post increase after operation
+console.log(++num1); // pre increase before operation
+
+
+
+
+
+
+
 
 
 
